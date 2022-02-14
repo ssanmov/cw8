@@ -1,0 +1,65 @@
+body{
+    background-color: #b9fbc0;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.navbuttons{
+    background-color: green;
+    display: inline-block;
+    width: 100px;
+    padding: 10px 30px;
+    text-align: center;
+    display: inline-block;
+}
+.dropdown .navbuttons{
+margin-left: -30px;
+display: block;
+}
+.dropdown{
+    position: absolute;
+    padding-top: 20px;
+    display: none;
+}
+.navbuttons:hover .dropdown{
+    display: block;
+}
+.button{
+    padding: 7px 20px;
+    background-color: black;
+    color: red;
+    border-radius: 7px;
+    position: relative;
+    top: 200px;
+    border-style: none;
+}
+.button:hover{
+    background-color: green ;
+    color: white;
+    padding: 7px 45px;
+    transition: 1s;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea{
+    padding: 10px;
+    width: 100%;
+}
+.newline{
+    display: block;
+}
+.control{
+    margin-bottom: 15px;
+}
+.leftmarginlabel{
+    margin-left: 10px;
+    margin-right: 20px;
+}
+input[type="radio"],
+input[type="checkbox"]{
+    width: 1rem;
+    height: 1rem;
+}
